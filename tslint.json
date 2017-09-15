@@ -1,0 +1,53 @@
+{
+  "rules": {
+    "align": {
+      "options": [
+        "parameters",
+        "statements"
+      ]
+    },
+    "arrow-parens": true,
+    "arrow-return-shorthand": true,
+    "class-name": true,
+    "import-spacing": true,
+    "indent":  {
+      "options": [ "spaces" ]
+    },
+    "jsdoc-format": true,
+    "member-access": true,
+    "new-parens": true,
+    "no-consecutive-blank-lines": [ true, 2 ],
+    "no-namespace": true,
+    "no-trailing-whitespace": true,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "object-literal-key-quotes": [ true, "consistent" ],
+    "object-literal-shorthand": true,
+    "only-arrow-functions": true,
+    "quotemark": [ true, "single", "jsx-single" ],
+    "typedef-whitespace": {
+      "options": [{
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }, {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }]
+    },
+    "whitespace": {
+      "options": [
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-type",
+        "check-typecast"
+      ]
+    }
+  }
+}
