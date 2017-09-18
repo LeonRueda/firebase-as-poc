@@ -9,10 +9,11 @@ console.log(src);
 
 module.exports = {
   entry: {
-    app: './src/scripts/index.js'
+    app: './src/scripts/index.js',
+    vanila: './src/scripts/vanilla.js'
   },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
@@ -40,7 +41,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Universando'
+      title: 'AS Chat Probe'
     })
   ],
   resolve: {
